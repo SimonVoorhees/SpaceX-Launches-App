@@ -1,7 +1,7 @@
 using: moment, sass, axios
       moment for time data
       sass for css variables, etc
-      axios to fetch data because ie doesn't use regular fetch because it sucks
+      axios to fetch data because ie doesn't use regular fetch
 
       Launches
 
