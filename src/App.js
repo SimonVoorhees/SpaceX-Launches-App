@@ -31,9 +31,9 @@ class App extends React.Component {
         <main>
           <Favorites />
           <h3 className="searchTitle">
-            {/* {"SpaceX launches from " +
+            {"SpaceX launches from " +
               this.state.startDate + " to " +
-              this.state.endDate} */}
+              this.state.endDate}
           </h3>
           <Launches />
         </main>

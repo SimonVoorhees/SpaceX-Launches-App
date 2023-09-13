@@ -8,17 +8,28 @@
   @extend %Audiowide;
   .dateLabel {
     padding-top: 5px;
-    @extend %Roboto;
+    @extend %Audiowide;
   }
   #startDate,
   #endDate,
   .dateLabel {
     margin: 10px;
     font-size: 15px;
-
+    text-align: center;
     background-color: $color1;
-    border: 0px;
   }
+  .dateLabel{
+    text-align: right;
+    width: 100%;
+    border: 4px solid black;
+    border-right: none;
+  }
+  #startDate,
+  #endDate{
+    border: 4px solid black;
+    border-left: none;
+  }
+  
   .dateSubmit {
     margin: 0px 30px 0px 0px;
     width: 90px;
